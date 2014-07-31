@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div class="panel">
+    <div class="panel-body">
+        <h1>{% t headers.questions %}</h1>
+
+        <ul class="questions list-unstyled">
+        {% for question in site.posts %}
+            <li>
+            <a class="question-link" href="{{ question.url | prepend: site.baseurl }}">{{ question.title }}</a>
+            </li>
+        {% endfor %}
+        </ul>
+    </div>
+</div>

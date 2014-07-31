@@ -1,0 +1,30 @@
+# Site settings
+email: your-email@domain.com
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+baseurl: ""
+url: "http://parentsupport.classdojo.com/"
+twitter_username: ClassDojo
+github_username:  classdojo
+
+# Build settings
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - bower.json
+    - bower_components
+    - README.md
+less:
+    compress: true
+markdown: kramdown
+permalink: ':title'
+show_drafts: true
+
+languages: ["en", "es"]
+flags:
+    en: us
+    es: es
+
+collections:
+    questions:
+        output: true
+        title: 'Questions'
