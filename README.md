@@ -9,16 +9,16 @@ Content is written in [Markdown](https://guides.github.com/features/mastering-ma
 Clone this repo.
 Install dependencies.
 
-``bash
+```
 $ bundle install
-``
+```
 
 ## Writing content
 
 Content structure is `_i18n/{lang}/_posts/questsions/{yyyy-mm-dd}-{english question}.md`.
 You can view your changes using
 
-``ruby
+```
 $ jekyll serve --watch
-``
+```
 
