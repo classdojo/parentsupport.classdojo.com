@@ -24,7 +24,10 @@ flags:
     en: us
     es: es
 
-collections:
-    questions:
-        output: true
-        title: 'Questions'
+defaults:
+    -
+        scope:
+            path: ""
+            type: "post"
+        values:
+            layout: "post"
