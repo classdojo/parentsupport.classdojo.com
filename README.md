@@ -22,3 +22,7 @@ You can view your changes using
 $ jekyll serve --watch
 ```
 
+## Deploying
+
+Use jekyll to build the site `jeklyl build`.
+Then upload the generated `_site` directory a production server to be hosted.
